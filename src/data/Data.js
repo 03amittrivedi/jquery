@@ -1,4 +1,5 @@
 import jQuery from "../core.js";
+# Hi
 import camelCase from "../core/camelCase.js";
 import rnothtmlwhite from "../var/rnothtmlwhite.js";
 import acceptData from "./var/acceptData.js";
