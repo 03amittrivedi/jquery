@@ -1,4 +1,4 @@
-import jQuery from "./core.js";
+iiiimport jQuery from "./core.js";
 import access from "./core/access.js";
 import camelCase from "./core/camelCase.js";
 import dataPriv from "./data/var/dataPriv.js";
@@ -165,7 +165,7 @@ jQuery.fn.extend( {
 		}, null, value, arguments.length > 1, null, true );
 	},
 
-	removeData: function( key ) {
+	rRemoveData: function( key ) {
 		return this.each( function() {
 			dataUser.remove( this, key );
 		} );
